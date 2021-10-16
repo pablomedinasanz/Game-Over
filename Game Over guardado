@@ -1,0 +1,123 @@
+/*Game Over Mal*/
+.cajaGameOver {
+	display: block;
+	margin-top: 150px;
+	margin-left: 320px;
+	border: 3px solid black;
+	width: 61%;
+	height: 200px;
+	}
+
+.cajaGameOverTexto {
+	border: 3px solid black;
+	width: 61%;
+	height: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-align: center
+	}
+	p {
+    position: relative; 
+    float: left;
+    color: black;
+    font-size: 2.5em;
+    }
+    p span {
+    position:absolute;
+    right:0;
+    width:0;
+    border-left: 3px solid #000;
+    animation: escribir 5s steps(300) infinite;
+    animation-timing-function: ease-out;
+    }
+    @keyframes escribir {
+    from { width: 100%; }
+    to { width:0 }
+    }
+}
+
+.cajaAux {
+	display: block;
+	border: 3pc solid black;
+	width: 20%;
+	height: 30px;
+}
+
+
+}
+.botonGameOver {
+	display: block;
+	width: 30%;
+	height: 80px;
+	margin-left: 540px;
+	padding-top: 30px;	
+	font-size: 10px;	
+	background-color: black;
+	font-weight: bold;
+	text-align: center;
+	border: outset 10px;
+	border-radius: 20px;
+	color: white;
+	}
+
+
+.caja2GameOverArriba {
+	display: block;
+	border: 3px solid black;
+	width: 70%;
+	height: 250px;
+	margin-left: 219px;
+	margin-top: 72px;
+}
+.caja3GameOverArribaTexto {
+	border: 3px solid black;
+	width: 62%;
+	height: 225px;
+	margin-top: -75px;
+	margin-left: 297px;
+	font-size: 60px;
+	padding-bottom: 10px;
+	color: black;
+	background-color: transparent;
+	}
+    h1 { 
+    position: relative; 
+    float: left;
+    background: black;
+    color: white;
+    font-size: 2.5em;
+    }
+    h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: black;
+    border-left: 3px solid #000;
+    animation: escribir 5s steps(300) infinite;
+    animation-timing-function: ease-out;
+    }
+    @keyframes escribir {
+    from { width: 100%; }
+    to { width:0 }
+    }
+}
+.caja1GameOverExterna {
+	display: block;
+	border: 3px solid black;
+	width: 70%;
+	height: 200px;
+	margin-left: 225px;
+	font-size: 30px;
+	margin-top: 20px;
+	padding-bottom: 3px;
+	text-align: center;	
+}
+
+.cajaTextoAbajo {
+	border: 3px solid black;
+	width: 50%;
+	height: 100px;
+	margin-left: 10px;
+	margin-top: 10px;	
+}
